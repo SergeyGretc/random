@@ -25,7 +25,7 @@ export function getRandomFigure() {
     Math.max(sizeX, sizeY),
     bodySize.width - Math.max(sizeX, sizeY)
   )}px`;
-  const id = random(1, 5);
+  const id = random(1, 6);
   if (id === 1) {
     figure.style.width = `${sizeX}px`;
     figure.style.height = `${sizeX}px`;
@@ -49,5 +49,6 @@ export function getRandomFigure() {
     figure.style.height = `${sizeY}px`;
     figure.style.borderRadius = `${random(0, 50)}%`;
   }
+
   return figure;
 }

@@ -24,5 +24,13 @@
   "dependencies": {
     "core-js": "^3.15.2",
     "regenerator-runtime": "^0.13.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeyGretc/random.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SergeyGretc/random/issues"
+  },
+  "homepage": "https://github.com/SergeyGretc/random#readme"
 }

@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../../../../01-hackathon"
+	},
+	{
+		"path": "../.."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Новая папка"
+  }
+}

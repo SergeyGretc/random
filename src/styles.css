@@ -54,17 +54,21 @@ body {
   top: 50px;
   transform: translateX(-50%);
   left: 50%;
-  width: 500px;
-  background: rgb(115, 40, 201);
+  width: 750px;
+  /* background: rgb(115, 40, 201); */
   z-index: 200;
   padding: 1.5rem;
   border-radius: 10px;
   height: 500px;
+  background: url(../assets/bestfone.jpg) no-repeat;
+  background-size: 750px 500px;
+  transition: 1s;
 }
 
 .modal h1 {
   text-align: center;
   color: rgb(11, 11, 14);
+  background: rgb(255, 255, 255, 0);
 }
 
 .button {
@@ -72,7 +76,7 @@ body {
   margin: auto;
   width: 200px;
   height: 40px;
-  background: rgb(255, 255, 255);
+  background: rgb(255, 255, 255, 0.2);
   display: flex;
   justify-content: center;
   margin-top: 50px;
@@ -82,6 +86,7 @@ body {
 }
 
 .button:hover {
-  background: rgb(128, 219, 124);
+  background: rgb(46, 2, 54);
+  color: red;
   transition: 1s;
 }

@@ -73,6 +73,11 @@ function initialModal() {
   const modal = document.createElement("div");
   modal.classList.add("modal");
 
+  // const modalImg = document.createElement("img");
+  // modalImg.style.width = "500px";
+  // modalImg.style.height = "500px";
+  // modalImg.src = JS_IMG;
+
   const header = document.createElement("h1");
   header.textContent = "Выберите картинку";
   modal.append(header);
@@ -109,6 +114,12 @@ function initialModal() {
   };
 }
 
+// export function modalImg() {
+//   const modalImg = document.createElement("img");
+//   modalImg.style.width = "500px";
+//   modalImg.style.height = "500px";
+//   return modalImg;
+// }
 export function createModal() {
   const {
     buttonForPumpkin,

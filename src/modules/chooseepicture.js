@@ -10,6 +10,10 @@ export class ChooseFigure extends Module {
   }
 
   trigger() {
+    const checkModalInBody = document.querySelector(".modal");
+    if (checkModalInBody) {
+      checkModalInBody.remove();
+    }
     document.body.append(createModal());
   }
 }
